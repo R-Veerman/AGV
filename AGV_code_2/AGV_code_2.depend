@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1750793006 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\fuse.c
+	<avr/io.h>
+
+1742316495 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"HC-SR04.h"
+
+1744374803 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.h
+
+1750706061 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.c
+	<avr/io.h>
+	<util/delay.h>
+	"interface_lib.h"
+	"stepper_motor_lib.h"
+	"state_machine.h"
+
+1750682816 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.h
+	<stdint.h>
+
+1750840552 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
+1750681952 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\state_machine.h
+
+1750940353 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\main.c
+	"interface_lib.h"
+	"HC-SR04.h"
+	"stepper_motor_lib.h"
+	"state_machine.h"
+	"UART.h"
+	<avr/io.h>
+
+1750696154 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\uart.h
+	<stdint.h>
+
+1750840552 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdlib.h>
+	"stepper_motor_lib.h"
+	"HC-SR04.h"
+
+1750695720 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\uart.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	"UART.h"
+	"state_machine.h"
+

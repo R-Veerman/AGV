@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1750934058 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\display.c
+	<avr/io.h>
+	<util/delay.h>
+	"display.h"
+	"state_machine_Module.h"
+
+1749482945 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\display.h
+	<avr/io.h>
+
+1748939882 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\fuse.c
+	<avr/io.h>
+
+1750935493 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.c
+	"rfid_mfrc522.h"
+	"spi_simple.h"
+	<util/delay.h>
+	<avr/io.h>
+
+1749047842 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.h
+	<stdbool.h>
+	<stdint.h>
+
+1748165093 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\spi_simple.h
+	<stdint.h>
+
+1748165421 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\spi_simple.c
+	"spi_simple.h"
+	<avr/io.h>
+
+1750681706 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\uart.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	"UART.h"
+	"state_machine_Module.h"
+
+1750678039 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\uart.h
+	<stdint.h>
+
+1749041980 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\servo.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"servo.h"
+
+1749041980 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\servo.h
+
+1750945167 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\main.c
+	"servo.h"
+	"display.h"
+	"state_machine_Module.h"
+	"UART.h"
+	"IR_sensor.h"
+	"interface_lib.h"
+	"Timer.h"
+	<avr/io.h>
+	<util/delay.h>
+
+1750681706 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\state_machine_module.h
+
+1750940931 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\ir_sensor.c
+	"IR_sensor.h"
+	"state_machine_Module.h"
+	<util/delay.h>
+
+1750945565 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\ir_sensor.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
+1750935199 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\interface_lib.h
+	<stdint.h>
+
+1750935213 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\interface_lib.c
+	<avr/io.h>
+	<util/delay.h>
+	"interface_lib.h"
+
+1750937801 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\timer.c
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1750937801 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\timer.h
+	<avr/io.h>
+	<avr/interrupt.h>
+
