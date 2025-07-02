@@ -76,7 +76,7 @@ void stepper_init() {
     DDRE |= STEP2;
     PORTB |= DIR2;
     PORTB &= ~DIR1;
-    PORTB |= EN1 | EN2;
+    PORTB &= ~(EN1 | EN2);
 
     TCCR1A = (1 << COM1B1) | (1 << WGM11) | (1 << WGM10);
     TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS11);

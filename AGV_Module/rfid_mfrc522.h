@@ -1,10 +1,20 @@
 #ifndef RFID_MFRC522_H
 #define RFID_MFRC522_H
 
-#include <stdbool.h>
 #include <stdint.h>
+#include <stdbool.h>
 
-void rfid_init(void);
-bool rfid_check_tag_present(void);
+    typedef struct {
+    volatile uint8_t *port;
+    uint8_t pin;
+    volatile uint8_t *ddr;
+} spi_device;
 
-#endif // RFID_MFRC522_H
+void spi_init();
+uint8_t spi_transfer(uint8_t data);
+
+void rfid_init(spi_device dev);
+bool rfid_check_tag_present(spi_device dev);
+bool rfid_tag_detected(spi_device dev);
+
+#endif

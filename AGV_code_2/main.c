@@ -19,13 +19,10 @@ int main(void) {
 
 
     while (1) {
-        set_stepper_speed(100);
-        stepper_activation(1);
-        rij_door_latjes();
-       /* switch (huidige_state) {
+        switch (huidige_state) {
 
             case STATE_STARTUP:
-
+                stepper_activation(0);
             break;
 
 
@@ -71,6 +68,6 @@ int main(void) {
                     }
                     break;
 
-        }*/
+        }
     }
 }

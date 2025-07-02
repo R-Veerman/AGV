@@ -11,15 +11,15 @@
 1748939882 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\fuse.c
 	<avr/io.h>
 
-1750935493 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.c
+1751463658 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.c
 	"rfid_mfrc522.h"
-	"spi_simple.h"
 	<util/delay.h>
 	<avr/io.h>
-
-1749047842 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.h
-	<stdbool.h>
 	<stdint.h>
+
+1751464085 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\rfid_mfrc522.h
+	<stdint.h>
+	<stdbool.h>
 
 1748165093 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\spi_simple.h
 	<stdint.h>
@@ -45,14 +45,14 @@
 
 1749041980 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\servo.h
 
-1750945167 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\main.c
-	"servo.h"
+1751464140 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_module\main.c
 	"display.h"
 	"state_machine_Module.h"
 	"UART.h"
 	"IR_sensor.h"
 	"interface_lib.h"
 	"Timer.h"
+	"rfid_mfrc522.h"
 	<avr/io.h>
 	<util/delay.h>
 
