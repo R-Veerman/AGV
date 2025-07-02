@@ -1269,8 +1269,8 @@ void IR_init(){
 
 
 
-    EICRA = (1<<ISC01) | (0<<ISC00) | (1<<ISC11) | (0<<ISC10);
-     59c:	8a e0       	ldi	r24, 0x0A	; 10
+    EICRA = (1<<ISC01) | (1<<ISC00) | (1<<ISC11) | (1<<ISC10);
+     59c:	8f e0       	ldi	r24, 0x0F	; 15
      59e:	80 93 69 00 	sts	0x0069, r24	; 0x800069 <__TEXT_REGION_LENGTH__+0x700069>
 
 000005a2 <.Loc.37>:
@@ -1565,8 +1565,8 @@ int main(void){
      6f2:	c9 01       	movw	r24, r18
 
 000006f4 <.Loc.40>:
-     6f4:	84 3f       	cpi	r24, 0xF4	; 244
-     6f6:	91 40       	sbci	r25, 0x01	; 1
+     6f4:	88 3e       	cpi	r24, 0xE8	; 232
+     6f6:	93 40       	sbci	r25, 0x03	; 3
      6f8:	a1 05       	cpc	r26, r1
      6fa:	b1 05       	cpc	r27, r1
      6fc:	08 f4       	brcc	.+2      	; 0x700 <.Loc.41>
@@ -1749,8 +1749,8 @@ int main(void){
      81a:	c9 01       	movw	r24, r18
 
 0000081c <.Loc.73>:
-     81c:	84 3f       	cpi	r24, 0xF4	; 244
-     81e:	91 40       	sbci	r25, 0x01	; 1
+     81c:	88 3e       	cpi	r24, 0xE8	; 232
+     81e:	93 40       	sbci	r25, 0x03	; 3
      820:	a1 05       	cpc	r26, r1
      822:	b1 05       	cpc	r27, r1
      824:	08 f4       	brcc	.+2      	; 0x828 <.Loc.74>

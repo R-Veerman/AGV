@@ -15,7 +15,7 @@ volatile State huidige_state = STATE_RIJDEN;
 volatile int blokjes_getelt = 0;
 volatile int blokjes_getelt_TAG = 0;
 
-#define SERVO_WACHT_TIJD_MS 500  // wachttijd in milliseconden
+#define SERVO_WACHT_TIJD_MS 1000  // wachttijd in milliseconden
 
 // Voor het aansturen van de servo-acties in stappen
 unsigned long vorige_tijd = 0;
