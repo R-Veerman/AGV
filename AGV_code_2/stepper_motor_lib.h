@@ -15,8 +15,7 @@
 #define EN2 (1 << PB3)      //pin 50
 
 
-#define RICHTING_LINKS  0
-#define RICHTING_RECHTS 1
+
 
 // Functies
 void stepper_init(void);

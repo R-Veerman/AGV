@@ -2,42 +2,41 @@
 1750793006 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\fuse.c
 	<avr/io.h>
 
-1742316495 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.c
+1751544947 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.c
 	<avr/io.h>
 	<avr/interrupt.h>
 	"HC-SR04.h"
 
-1744374803 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.h
+1751544947 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\hc-sr04.h
 
-1750706061 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.c
+1751550547 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.c
 	<avr/io.h>
 	<util/delay.h>
 	"interface_lib.h"
 	"stepper_motor_lib.h"
 	"state_machine.h"
 
-1750682816 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.h
+1751550547 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\interface_lib.h
 	<stdint.h>
 
-1751454458 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.h
+1751544879 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.h
 	<avr/io.h>
 	<util/delay.h>
 	<avr/interrupt.h>
 
-1750681952 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\state_machine.h
+1751547838 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\state_machine.h
 
-1751453883 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\main.c
+1751553896 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\main.c
 	"interface_lib.h"
 	"HC-SR04.h"
 	"stepper_motor_lib.h"
 	"state_machine.h"
-	"UART.h"
 	<avr/io.h>
 
 1750696154 c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\uart.h
 	<stdint.h>
 
-1751454458 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.c
+1751549186 source:c:\users\rickv\documents\school\jaar 1\blok 2\project agv deel 2\programma\agv_code_2\stepper_motor_lib.c
 	<avr/io.h>
 	<util/delay.h>
 	<stdlib.h>

@@ -58,10 +58,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Timer.h" />
-		<Unit filename="UART.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="UART.h" />
 		<Unit filename="display.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -80,14 +76,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="rfid_mfrc522.h" />
-		<Unit filename="servo.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="servo.h" />
-		<Unit filename="spi_simple.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="spi_simple.h" />
 		<Unit filename="state_machine_Module.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

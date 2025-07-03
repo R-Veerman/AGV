@@ -11,12 +11,10 @@ uint8_t laatst_sensor_2 = 0;
 
 ISR(INT0_vect){
     IR_sense_1 = 1;
-    _delay_ms(10);
    huidige_state = STATE_CHECK_BLOK;
 }
 ISR(INT1_vect){
     IR_sense_2 = 1;
-    _delay_ms(10);
     huidige_state = STATE_CHECK_BLOK;
 }
 

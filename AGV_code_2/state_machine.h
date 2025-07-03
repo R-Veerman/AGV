@@ -7,8 +7,6 @@ typedef enum {
     STATE_RIJDEN,
     STATE_DRAAIEN,
     STATE_STOPPEN,
-    STATE_SCHUIF_RECHTS,
-    STATE_SCHUIF_LINKS,
     STATE_NOODSTOP
 } State;
 

@@ -54,10 +54,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="HC-SR04.h" />
-		<Unit filename="UART.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="UART.h" />
 		<Unit filename="fuse.c">
 			<Option compilerVar="CC" />
 		</Unit>
