@@ -19,7 +19,7 @@ volatile State huidige_state = STATE_RIJDEN;
 volatile int blokjes_getelt = 0;
 volatile int blokjes_getelt_TAG = 0;
 
-#define WACHT_TIJD_MS 100  // wachttijd in milliseconden
+#define WACHT_TIJD_MS 500  // wachttijd in milliseconden
 
 // Voor het aansturen van de servo-acties in stappen
 unsigned long vorige_tijd = 0;
@@ -46,8 +46,8 @@ int main(void){
     spi_device rfid_right = {&PORTL, PL0, &DDRL};
     rfid_init(rfid_left);
     rfid_init(rfid_right);
-  //  *(rfid_left.port) |= (1 << rfid_left.pin);   // Deselecteer na init
-  //  *(rfid_right.port) |= (1 << rfid_right.pin); // Deselecteer na init
+    *(rfid_left.port) |= (1 << rfid_left.pin);   // Deselecteer na init
+    *(rfid_right.port) |= (1 << rfid_right.pin); // Deselecteer na init
 
 
 
