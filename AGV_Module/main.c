@@ -77,7 +77,7 @@ int main(void){
 
                     case 1:
                         if ((millis() - vorige_tijd) >= WACHT_TIJD_MS) {
-                            if (rfid_check_tag_present(rfid_right) || rfid_check_tag_present(rfid_left)) {
+                            if (rfid_tag_detected(rfid_right) || rfid_tag_detected(rfid_left)){
                                 blokjes_getelt_TAG += 1;
                             } else {
                                 blokjes_getelt += 1;

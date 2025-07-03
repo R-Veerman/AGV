@@ -1556,13 +1556,13 @@ int main(void){
  6da:	b6 cf       	rjmp	.-148    	; 0x648 <.L4>
 
 000006dc <.Loc.51>:
-                            if (rfid_check_tag_present(rfid_right) || rfid_check_tag_present(rfid_left)) {
+                            if (rfid_tag_detected(rfid_right) || rfid_tag_detected(rfid_left)){
  6dc:	4e 81       	ldd	r20, Y+6	; 0x06
  6de:	5f 81       	ldd	r21, Y+7	; 0x07
  6e0:	68 85       	ldd	r22, Y+8	; 0x08
  6e2:	79 85       	ldd	r23, Y+9	; 0x09
  6e4:	8a 85       	ldd	r24, Y+10	; 0x0a
- 6e6:	0e 94 14 05 	call	0xa28	; 0xa28 <rfid_check_tag_present>
+ 6e6:	0e 94 86 05 	call	0xb0c	; 0xb0c <rfid_tag_detected>
 
 000006ea <.LVL15>:
  6ea:	88 23       	and	r24, r24
@@ -1604,13 +1604,13 @@ int main(void){
  730:	8b cf       	rjmp	.-234    	; 0x648 <.L4>
 
 00000732 <.L15>:
-                            if (rfid_check_tag_present(rfid_right) || rfid_check_tag_present(rfid_left)) {
+                            if (rfid_tag_detected(rfid_right) || rfid_tag_detected(rfid_left)){
  732:	49 81       	ldd	r20, Y+1	; 0x01
  734:	5a 81       	ldd	r21, Y+2	; 0x02
  736:	6b 81       	ldd	r22, Y+3	; 0x03
  738:	7c 81       	ldd	r23, Y+4	; 0x04
  73a:	8d 81       	ldd	r24, Y+5	; 0x05
- 73c:	0e 94 14 05 	call	0xa28	; 0xa28 <rfid_check_tag_present>
+ 73c:	0e 94 86 05 	call	0xb0c	; 0xb0c <rfid_tag_detected>
 
 00000740 <.LVL19>:
  740:	81 11       	cpse	r24, r1

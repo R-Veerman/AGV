@@ -647,9 +647,9 @@ END GROUP
                                         0x168 (size before relaxing)
  .debug_str     0x00000000000005e5       0xdc obj\Debug\IR_sensor.o
                                         0x1a2 (size before relaxing)
- .debug_str     0x00000000000006c1       0xc4 obj\Debug\main.o
-                                        0x254 (size before relaxing)
- .debug_str     0x0000000000000785       0x4b obj\Debug\rfid_mfrc522.o
+ .debug_str     0x00000000000006c1       0xbf obj\Debug\main.o
+                                        0x24f (size before relaxing)
+ .debug_str     0x0000000000000780       0x50 obj\Debug\rfid_mfrc522.o
                                         0x19d (size before relaxing)
  .debug_str     0x00000000000007d0       0x19 obj\Debug\Timer.o
                                          0xf2 (size before relaxing)
@@ -887,10 +887,10 @@ millis                                            obj\Debug\Timer.o
                                                   obj\Debug\main.o
 millis_count                                      obj\Debug\Timer.o
 rfid_check_tag_present                            obj\Debug\rfid_mfrc522.o
-                                                  obj\Debug\main.o
 rfid_init                                         obj\Debug\rfid_mfrc522.o
                                                   obj\Debug\main.o
 rfid_tag_detected                                 obj\Debug\rfid_mfrc522.o
+                                                  obj\Debug\main.o
 send_data                                         obj\Debug\display.o
 spi_init                                          obj\Debug\rfid_mfrc522.o
 spi_transfer                                      obj\Debug\rfid_mfrc522.o
