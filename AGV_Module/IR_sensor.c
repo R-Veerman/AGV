@@ -24,7 +24,7 @@ void IR_init(){
 
 
 
-    EICRA = (1<<ISC01) | (1<<ISC00) | (1<<ISC11) | (1<<ISC10);
+    EICRA = (0<<ISC01) | (1<<ISC00) | (0<<ISC11) | (1<<ISC10);
     EIMSK = (1<<INT0) | (1<<INT1);
 
     sei();

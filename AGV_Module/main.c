@@ -55,48 +55,23 @@ int main(void){
        if (PIND & EMERGENCY_STOP_BUTTON) {
           huidige_state = STATE_NOODSTOP;
        }
-                display1_getal(blokjes_getelt);
-                display2_getal(blokjes_getelt_TAG);
+                display1_getal(blokjes_getelt / 2);
+                display2_getal(blokjes_getelt_TAG /2);
+
         switch (huidige_state) {
 
             case STATE_RIJDEN:
                 HALT_deactivate();
-                display1_getal(blokjes_getelt);
-                display2_getal(blokjes_getelt_TAG);
 
                 break;
 
             case STATE_CHECK_BLOK:
 
                HALT_activate();
-                switch(blok_check_substate) {
-                    case 0:
-                        vorige_tijd = millis();
-                        blok_check_substate = 1;
-                        break;
-
-                    case 1:
-                        if ((millis() - vorige_tijd) >= WACHT_TIJD_MS) {
-                            if (rfid_tag_detected(rfid_right) || rfid_tag_detected(rfid_left)){
-                                blokjes_getelt_TAG += 1;
-                            } else {
-                                blokjes_getelt += 1;
-                            }
-                            display1_getal(blokjes_getelt);
-                            display2_getal(blokjes_getelt_TAG);
-                            vorige_tijd = millis();
-                            blok_check_substate = 2;
-                        }
-                        break;
-
-                    case 2:
-                        if ((millis() - vorige_tijd) >= WACHT_TIJD_MS) {
-                            vorige_tijd = millis();
-                            huidige_state = STATE_RIJDEN;
-                            blok_check_substate = 0;
-                        }
-                        break;
-
+                if (rfid_tag_detected(rfid_right) || rfid_tag_detected(rfid_left)){
+                    blokjes_getelt_TAG += 1;
+                } else {
+                    blokjes_getelt ++;
                 }
 
                 break;
